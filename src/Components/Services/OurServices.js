@@ -77,9 +77,8 @@ export default function OurServices() {
           <div key={index}>
             {/* Service Block */}
             <div
-              className={`flex justify-between items-center ${
-                index % 2 !== 0 ? "flex-row-reverse" : ""
-              } gap-10`}
+              className={`flex justify-between items-center 
+                ${index % 2 !== 0 ? "flex-row-reverse" : ""} gap-10`}
             >
               <div className="flex-shrink-0">
                 <img
@@ -93,7 +92,9 @@ export default function OurServices() {
                   {service.no}
                 </p>
                 <p className="font-anton text-3xl pt-4">{service.Title}</p>
-                <p className="font-title text-xl pt-6 opacity-50">{service.Desc}</p>
+                <p className="font-title text-xl pt-6 opacity-50">
+                  {service.Desc}
+                </p>
               </div>
             </div>
 
