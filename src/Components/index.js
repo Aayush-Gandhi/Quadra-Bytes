@@ -11,3 +11,4 @@ export {default as Wlcm} from './Aboutus/Wlcm'
 export {default as Us} from './Aboutus/Us'
 
 export {default as ServicesHero} from './Services/ServicesHero'
+export {default as OurServices} from './Services/OurServices'
