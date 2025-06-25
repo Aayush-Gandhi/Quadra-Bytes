@@ -12,3 +12,6 @@ export {default as Us} from './Aboutus/Us'
 
 export {default as ServicesHero} from './Services/ServicesHero'
 export {default as OurServices} from './Services/OurServices'
+
+export {default as ContactHero} from './Contactus/ContactHero'
+export {default as Form} from './Contactus/Form'
