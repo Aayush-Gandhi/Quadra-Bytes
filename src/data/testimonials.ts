@@ -1,4 +1,4 @@
-const testimonials = [
+export const testimonials = [
   {
     name: "John Doe",
     role: "CEO, Example Inc.",
