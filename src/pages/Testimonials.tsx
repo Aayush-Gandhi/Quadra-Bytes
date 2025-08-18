@@ -1,23 +1,24 @@
 import { Card, CardContent } from "@/components/ui/card";
+import RoyaltyJewels    from "@/Images/Testimonials/RJ.png";
 
 export default function TestimonialsPage() {
   const testimonials = [
     {
-      name: "John Doe",
+      name: "Royalty Jewels",
       role: "CEO, Example Inc.",
       message:
         "Quadra Bytes helped us transform our digital strategy. Their team is knowledgeable, responsive, and delivers quality work consistently.",
-      image: "/Images/Testimonials/john.jpg",
+      image: {RoyaltyJewels},
     },
     {
-      name: "Jane Smith",
+      name: "Neon Brilliance",
       role: "CTO, Sample Co.",
       message:
         "Working with Quadra Bytes was a game-changer. Their solutions improved our operations efficiency by 40%.",
       image: "/Images/Testimonials/jane.jpg",
     },
     {
-      name: "Alex Johnson",
+      name: "Mega Bearings",
       role: "Founder, Startup XYZ",
       message:
         "Highly recommend Quadra Bytes. Their design and development expertise is unmatched.",
@@ -46,7 +47,7 @@ export default function TestimonialsPage() {
             <Card key={index} className="bg-[#38B6FF]/10 shadow hover:shadow-lg transition">
               <CardContent className="p-6 space-y-4 flex flex-col items-center text-center">
                 <img
-                  src={testimonial.image}
+                  src={RoyaltyJewels}
                   alt={testimonial.name}
                   className="w-20 h-20 rounded-full object-cover"
                 />

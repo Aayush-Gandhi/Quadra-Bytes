@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import aboutImg from "@/Images/AboutUs/About.jpg";
 
 export default function AboutUsPage() {
   const whyChooseUs = [
@@ -31,7 +32,7 @@ export default function AboutUsPage() {
         <section className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-shrink-0">
             <img
-              src="/Images/AboutUs/About.jpg"
+              src={aboutImg}
               alt="About us"
               className="w-full max-w-md rounded-lg object-cover"
             />
