@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import Logo from "@/Images/Logo.png";
 
 export default function Footer() {
   return (
@@ -27,7 +28,7 @@ export default function Footer() {
         {/* Logo + Social */}
         <div className="flex flex-col items-center">
           <img
-            src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Dummy logo image
+            src={Logo}
             alt="Company Logo"
             className="w-44 h-auto mb-4"
           />
