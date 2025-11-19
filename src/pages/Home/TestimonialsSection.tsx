@@ -21,7 +21,7 @@ export default function TestimonialsSection() {
       role: "Founder, Nova Innovations",
       message:
         "Our experience with Quadra Bytes has been outstanding. Their professionalism, responsiveness, and commitment to quality set them apart. They’ve become our go-to partner for all things digital.",
-      // image: "/Images/Testimonials/alex.jpg",
+      //  image: "/Images/Testimonials/alex.jpg",
     },
   ];
 
