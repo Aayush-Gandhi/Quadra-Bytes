@@ -49,7 +49,7 @@ export default function TestimonialsSection() {
                 <p className="italic text-gray-600">"{testimonial.message}"</p>
                 <div>
                   <p className="font-semibold">{testimonial.name}</p>
-                  <p className="text-sm text-gray-500">{testimonial.role}</p>
+                  {/* <p className="text-sm text-gray-500">{testimonial.role}</p> */}
                 </div>
               </CardContent>
             </Card>
