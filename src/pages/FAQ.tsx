@@ -20,7 +20,7 @@ export default function FAQPage() {
     },
     {
       question: "Where is your company located?",
-      answer: "We are headquartered in [Your City, Country], but we serve clients globally through remote collaboration.",
+      answer: "We are headquartered in India but we serve clients globally through remote collaboration.",
     },
   ];
 
