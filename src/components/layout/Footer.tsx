@@ -54,15 +54,15 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <p>Phone</p>
-              <p className="text-gray-400">+1 123-456-7890</p>
+              <p className="text-gray-400">+1 (917) 782-1124</p>
             </li>
             <li>
               <p>Email</p>
-              <p className="text-gray-400">example@example.com</p>
+              <p className="text-gray-400">sales@quadrabytes.com</p>
             </li>
             <li>
               <p>Address</p>
-              <p className="text-gray-400">1234 Example St, City, Country</p>
+              <p className="text-gray-400">37W 47st Suite-603, New York, NY 10036</p>
             </li>
           </ul>
         </div>

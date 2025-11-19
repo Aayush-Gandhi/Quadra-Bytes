@@ -13,15 +13,15 @@ export default function ContactUsSection() {
           <div className="space-y-4">
             <div className="flex items-center space-x-4">
               <Phone className="w-6 h-6 text-[#38B6FF]" />
-              <p>123-456-7890</p>
+              <p>(917) 782-1124</p>
             </div>
             <div className="flex items-center space-x-4">
               <Mail className="w-6 h-6 text-[#38B6FF]" />
-              <p>example@example.com</p>
+              <p>sales@quadrabytes.com</p>
             </div>
             <div className="flex items-center space-x-4">
               <MapPin className="w-6 h-6 text-[#38B6FF]" />
-              <p>1234 Example St, City, Country</p>
+              <p>37W 47st Suite-603, New York, NY 10036</p>
             </div>
           </div>
 

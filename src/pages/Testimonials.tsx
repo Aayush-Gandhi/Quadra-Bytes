@@ -5,24 +5,24 @@ export default function TestimonialsPage() {
   const testimonials = [
     {
       name: "Royalty Jewels",
-      role: "CEO, Example Inc.",
+      role: "CEO, Utsav",
       message:
         "Quadra Bytes helped us transform our digital strategy. Their team is knowledgeable, responsive, and delivers quality work consistently.",
-      image: {RoyaltyJewels},
+      // image: {RoyaltyJewels},
     },
     {
       name: "Neon Brilliance",
-      role: "CTO, Sample Co.",
+      role: "CTO, Fenil",
       message:
         "Working with Quadra Bytes was a game-changer. Their solutions improved our operations efficiency by 40%.",
-      image: "/Images/Testimonials/jane.jpg",
+      // image: "/Images/Testimonials/jane.jpg",
     },
     {
       name: "Mega Bearings",
-      role: "Founder, Startup XYZ",
+      role: "Founder, Mihir",
       message:
         "Highly recommend Quadra Bytes. Their design and development expertise is unmatched.",
-      image: "/Images/Testimonials/alex.jpg",
+      // image: "/Images/Testimonials/alex.jpg",
     },
     // Add more testimonials as needed
   ];

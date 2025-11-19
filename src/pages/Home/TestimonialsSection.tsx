@@ -3,25 +3,25 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: "John Doe",
-      role: "CEO, Example Inc.",
+      name: "Michael Rivera",
+      role: "CTO, Horizon Tech",
       message:
-        "Quadra Bytes helped us transform our digital strategy. Their team is knowledgeable, responsive, and delivers quality work consistently.",
-      image: "/Images/Testimonials/john.jpg",
+        "Quadra Bytes completely revamped our web platform. Their development team delivered a fast, modern, and scalable solution that improved our user experience and boosted engagement across the board.",
+      // image: "/Images/Testimonials/john.jpg",
     },
     {
-      name: "Jane Smith",
-      role: "CTO, Sample Co.",
+      name: "Sarah Thompson",
+      role: "Marketing Director, BrightWave Media",
       message:
-        "Working with Quadra Bytes was a game-changer. Their solutions improved our operations efficiency by 40%.",
-      image: "/Images/Testimonials/jane.jpg",
+        "Partnering with Quadra Bytes elevated our entire marketing strategy. Their creative approach, data-driven insights, and flawless execution helped us reach new audiences and exceed our campaign goals.",
+      // image: "/Images/Testimonials/jane.jpg",
     },
     {
-      name: "Alex Johnson",
-      role: "Founder, Startup XYZ",
+      name: "Tim David",
+      role: "Founder, Nova Innovations",
       message:
-        "Highly recommend Quadra Bytes. Their design and development expertise is unmatched.",
-      image: "/Images/Testimonials/alex.jpg",
+        "Our experience with Quadra Bytes has been outstanding. Their professionalism, responsiveness, and commitment to quality set them apart. They’ve become our go-to partner for all things digital.",
+      // image: "/Images/Testimonials/alex.jpg",
     },
   ];
 
@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
             <Card key={index} className="bg-white shadow hover:shadow-lg transition">
               <CardContent className="p-6 space-y-4 flex flex-col items-center text-center">
                 <img
-                  src={testimonial.image}
+                  // src={testimonial.image}
                   alt={testimonial.name}
                   className="w-20 h-20 rounded-full object-cover"
                 />
