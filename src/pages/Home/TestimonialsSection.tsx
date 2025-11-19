@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
             <Card key={index} className="bg-white shadow hover:shadow-lg transition">
               <CardContent className="p-6 space-y-4 flex flex-col items-center text-center">
                 {/* <img
-                  // src={testimonial.image}
+                   src={testimonial.image}
                   alt={testimonial.name}
                   className="w-20 h-20 rounded-full object-cover"
                 /> */}
