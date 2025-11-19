@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import RoyaltyJewels    from "@/Images/Testimonials/RJ.png";
+// import RoyaltyJewels    from "@/Images/Testimonials/RJ.png";
 
 export default function TestimonialsPage() {
   const testimonials = [
@@ -46,11 +46,11 @@ export default function TestimonialsPage() {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="bg-[#38B6FF]/10 shadow hover:shadow-lg transition">
               <CardContent className="p-6 space-y-4 flex flex-col items-center text-center">
-                <img
+                {/* <img
                   src={RoyaltyJewels}
                   alt={testimonial.name}
                   className="w-20 h-20 rounded-full object-cover"
-                />
+                /> */}
                 <p className="italic">"{testimonial.message}"</p>
                 <div>
                   <p className="font-semibold">{testimonial.name}</p>
